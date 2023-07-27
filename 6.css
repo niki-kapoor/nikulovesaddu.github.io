@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+/* CSS for header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #730c0e;
+  width: 100%;
+}
+
+.header .logo {
+  margin-left: 2vw;
+}
+
+.nav-items {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: ##1a13e6;
+  margin-right: 10vw;
+}
+
+.nav-items a {
+  text-decoration: none;
+  color: #ece3e3;
+  padding: 2vw 2vw;
+}
+/* CSS for main section */
+.intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width:450px;
+  height: 200px;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url("1.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  backface-visibility: 0.1;
+}
+
+.intro h1 {
+  font-family: "copperplate",serif;
+  font-size: 100px;
+  color: #d1d1d1 ;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 4vw;
+  margin: 10px;
+
+}
+
+.intro pre {
+  font-size: 20px;
+  font-family: "Times Roman Numeral";
+  color: #d1d1d1;
+  text-align: center;
+  font-size: 2.5vw;
+  margin: 20px 0;
+}
+
+  
+  .body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 50vh;
+    background-color: #730c0e;
+  }
+  .table
+	{
+	border:1px solid black;
+    border-collapse:collapse;
+
+	}
+  
+  .container h1 {
+    color: rgb(5, 15, 79);
+    font-family: "copperplate",serif ;
+    margin: 10px;
+  }
+  
+  .registartion-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    color: rgb(255, 255, 255);
+    font-size: 10px;
+    font-family: sans-serif;
+    background:url("http://leandesign.com/wp/wp-content/uploads/2013/07/electronics-banner-02.jpg");
+    padding: 20px;
+  }
+  
+  .registartion-form input,
+  .registartion-form select,
+  .registartion-form textarea {
+    border: none;
+    padding: 5px;
+    margin-top: 10px;
+    font-family: sans-serif;
+  }
+  
+  .registartion-form input:focus,
+  .registartion-form textarea:focus {
+    box-shadow: 3px 3px 10px rgb(228, 228, 228), -3px -3px 10px rgb(224, 224, 224);
+  }
+  
+  .registartion-form .submit {
+    width: 100%;
+    padding: 8px 0;
+    font-size: 20px;
+    color: rgb(44, 44, 44);
+    background-color: #ffffff;
+    border-radius: 5px;
+  }
+  
+  .registartion-form .submit:hover {
+    box-shadow: 3px 3px 6px rgb(255, 214, 176);
+  }
